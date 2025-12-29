@@ -3,7 +3,7 @@
     <!-- 搜索框 -->
     <view class="search">
       <view class="input">
-        <text class="icon-search">女靴</text>
+        <text class="icon-search">输入搜索商品</text>
       </view>
     </view>
     <!--骨架屏-->
