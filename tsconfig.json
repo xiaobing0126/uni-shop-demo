@@ -1,0 +1,26 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    // Cannot find module '@/stores'. Did you mean to set the 'moduleResolution' option to 'node', or to add a 'paths' mapping?
+    "moduleResolution": "Node",
+    "lib": ["esnext", "dom"],
+    "types": [
+      "@dcloudio/types",
+      "miniprogram-api-typings",
+      "@uni-helper/uni-app-types",
+      "@uni-helper/uni-ui-types"
+    ]
+  },
+  "vueCompilerOptions": {
+    // experimentalRuntimeMode 已废弃，请升级 Vue - Official 插件至最新版本
+    // vscode安装了Vue-official插件后，必须注释掉这一行，否则page.json中配置的自定义组件无法识别
+    // "plugins": ["@uni-helper/uni-app-types/volar-plugin"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+}

@@ -1,0 +1,26 @@
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20rpx 0;
+  background-color: #fff;
+  .category-items {
+    width: 20%;
+  }
+  .category-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10rpx 0;
+    .icon {
+      width: 88rpx;
+      height: 88rpx;
+    }
+    .text {
+      margin-top: 10rpx;
+      font-size: 24rpx;
+      color: #333;
+    }
+  }
+}
