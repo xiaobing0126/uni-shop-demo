@@ -3,7 +3,7 @@
     <!-- 关闭按钮 -->
     <text class="close icon-close"></text>
     <!-- 标题 -->
-    <view class="title">配送至</view>
+    <view class="title">配送到地址</view>
     <!-- 内容 -->
     <view class="content">
       <view class="item">
